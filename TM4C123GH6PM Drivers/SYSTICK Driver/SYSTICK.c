@@ -30,7 +30,7 @@ void SYSTICK_doubleDelay(int doubleDelay , u32 counts){
 
     for( i = 0 ; i < doubleDelay ; i++){
 
-        void SYSTICK_delay(u32 counts); // if doubleDelay = 0 then it will be 10 MS
+        void SYSTICK_delay(u32 counts); // if doubleDelay = 10 then it will be 10 MS
 
     }
 }
